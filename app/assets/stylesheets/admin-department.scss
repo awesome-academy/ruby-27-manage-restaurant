@@ -37,13 +37,13 @@ ul.pagination li.page{
   padding: 4px 12px;
 }
 
-ul.pagination li {
+ul.pagination li{
   border-left: 0px;
   font-size: 14px;
   font-weight: 500;
 }
 
-ul.pagination li:first-child {
+ul.pagination li:first-child{
   border-left: 1px solid $paginati;
 }
 
@@ -55,7 +55,7 @@ ul.pagination li.page.active a{
   color: $while;
 }
 
-ul.pagination li:hover {
+ul.pagination li:hover{
   background: $paginati_active;
 }
 
