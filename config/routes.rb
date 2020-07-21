@@ -20,5 +20,6 @@ Rails.application.routes.draw do
     resources :users
     resources :dishes, only: :index
     resources :book_tables
+    resources :dinner_tables
   end
 end
